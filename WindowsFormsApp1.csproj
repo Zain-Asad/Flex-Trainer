@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6B3B66A9-1225-4F38-8D0A-11B40DC3BAA6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp1</RootNamespace>
+    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminGymOwnerApprovalForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminGymOwnerApprovalForm.Designer.cs">
+      <DependentUpon>AdminGymOwnerApprovalForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminHome.Designer.cs">
+      <DependentUpon>adminHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateAppointmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateAppointmentForm.Designer.cs">
+      <DependentUpon>CreateAppointmentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateDietPlanForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateDietPlanForm.Designer.cs">
+      <DependentUpon>CreateDietPlanForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateWorkoutPlanForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateWorkoutPlanForm.Designer.cs">
+      <DependentUpon>CreateWorkoutPlanForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dietPlans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dietPlans.Designer.cs">
+      <DependentUpon>dietPlans.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FeedbackListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FeedbackListForm.Designer.cs">
+      <DependentUpon>FeedbackListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Flex_TrainerData.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Flex_TrainerData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DietPlanForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DietPlanForm.Designer.cs">
+      <DependentUpon>DietPlanForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GymOwnerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GymOwnerForm.Designer.cs">
+      <DependentUpon>GymOwnerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberForm.Designer.cs">
+      <DependentUpon>MemberForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrainerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrainerForm.Designer.cs">
+      <DependentUpon>TrainerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GymOwnerSignupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GymOwnerSignupForm.Designer.cs">
+      <DependentUpon>GymOwnerSignupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberFeedbackForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberFeedbackForm.Designer.cs">
+      <DependentUpon>MemberFeedbackForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminMemberForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminMemberForm.Designer.cs">
+      <DependentUpon>AdminMemberForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberSignupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberSignupForm.Designer.cs">
+      <DependentUpon>MemberSignupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Signup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Signup.Designer.cs">
+      <DependentUpon>Signup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrainerAppointmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrainerAppointmentForm.Designer.cs">
+      <DependentUpon>TrainerAppointmentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrainerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminTrainerForm.Designer.cs">
+      <DependentUpon>AdminTrainerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrainerSignupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrainerSignupForm.Designer.cs">
+      <DependentUpon>TrainerSignupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewAppointmentsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewAppointmentsForm.Designer.cs">
+      <DependentUpon>ViewAppointmentsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewDiet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewDiet.Designer.cs">
+      <DependentUpon>viewDiet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewWorkout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewWorkout.Designer.cs">
+      <DependentUpon>viewWorkout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="trainerProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="trainerProfile.Designer.cs">
+      <DependentUpon>trainerProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GymOwnerApprovalForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GymOwnerApprovalForm.Designer.cs">
+      <DependentUpon>GymOwnerApprovalForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkoutPlanForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkoutPlanForm.Designer.cs">
+      <DependentUpon>WorkoutPlanForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="workoutPlans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="workoutPlans.Designer.cs">
+      <DependentUpon>workoutPlans.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ownerHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ownerHome.Designer.cs">
+      <DependentUpon>ownerHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="trainerHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="trainerHome.Designer.cs">
+      <DependentUpon>trainerHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="memberHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="memberHome.Designer.cs">
+      <DependentUpon>memberHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profile.Designer.cs">
+      <DependentUpon>Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Validation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Validation.designer.cs">
+      <DependentUpon>Validation.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminGymOwnerApprovalForm.resx">
+      <DependentUpon>AdminGymOwnerApprovalForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminHome.resx">
+      <DependentUpon>adminHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateAppointmentForm.resx">
+      <DependentUpon>CreateAppointmentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateDietPlanForm.resx">
+      <DependentUpon>CreateDietPlanForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateWorkoutPlanForm.resx">
+      <DependentUpon>CreateWorkoutPlanForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DietPlanForm.resx">
+      <DependentUpon>DietPlanForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dietPlans.resx">
+      <DependentUpon>dietPlans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FeedbackListForm.resx">
+      <DependentUpon>FeedbackListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GymOwnerForm.resx">
+      <DependentUpon>GymOwnerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberForm.resx">
+      <DependentUpon>MemberForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrainerForm.resx">
+      <DependentUpon>TrainerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GymOwnerSignupForm.resx">
+      <DependentUpon>GymOwnerSignupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberFeedbackForm.resx">
+      <DependentUpon>MemberFeedbackForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminMemberForm.resx">
+      <DependentUpon>AdminMemberForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberSignupForm.resx">
+      <DependentUpon>MemberSignupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ownerHome.resx">
+      <DependentUpon>ownerHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Signup.resx">
+      <DependentUpon>Signup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrainerAppointmentForm.resx">
+      <DependentUpon>TrainerAppointmentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminTrainerForm.resx">
+      <DependentUpon>AdminTrainerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="trainerHome.resx">
+      <DependentUpon>trainerHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="memberHome.resx">
+      <DependentUpon>memberHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profile.resx">
+      <DependentUpon>Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="trainerProfile.resx">
+      <DependentUpon>trainerProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GymOwnerApprovalForm.resx">
+      <DependentUpon>GymOwnerApprovalForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrainerSignupForm.resx">
+      <DependentUpon>TrainerSignupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Validation.resx">
+      <DependentUpon>Validation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewAppointmentsForm.resx">
+      <DependentUpon>ViewAppointmentsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewDiet.resx">
+      <DependentUpon>viewDiet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewWorkout.resx">
+      <DependentUpon>viewWorkout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkoutPlanForm.resx">
+      <DependentUpon>WorkoutPlanForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="workoutPlans.resx">
+      <DependentUpon>workoutPlans.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Flex_TrainerData.xsc">
+      <DependentUpon>Flex_TrainerData.xsd</DependentUpon>
+    </None>
+    <None Include="Flex_TrainerData.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Flex_TrainerData.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Flex_TrainerData.xss">
+      <DependentUpon>Flex_TrainerData.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

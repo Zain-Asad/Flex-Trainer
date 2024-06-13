@@ -1,0 +1,21 @@
+APPOINTMENTID,TRAINERID,MEMBERID,LOCATION1,DURATION,DATE1,TIME1,STATUS1
+1,1,1,Gym,60 minutes,2023-03-01,09:00:00.0000000,Confirmed
+2,2,2,Online,45 minutes,2023-03-02,10:00:00.0000000,Pending
+3,3,3,Park,30 minutes,2023-03-03,11:00:00.0000000,Confirmed
+4,4,4,Gym,60 minutes,2023-03-04,09:00:00.0000000,Confirmed
+5,5,5,Online,45 minutes,2023-03-05,10:00:00.0000000,Pending
+6,6,6,Park,30 minutes,2023-03-06,11:00:00.0000000,Confirmed
+7,7,7,Gym,60 minutes,2023-03-07,09:00:00.0000000,Confirmed
+8,8,8,Online,45 minutes,2023-03-08,10:00:00.0000000,Pending
+9,9,9,Park,30 minutes,2023-03-09,11:00:00.0000000,Confirmed
+10,10,10,Gym,60 minutes,2023-03-10,09:00:00.0000000,Confirmed
+11,11,11,Online,45 minutes,2023-03-11,10:00:00.0000000,Pending
+12,12,12,Park,30 minutes,2023-03-12,11:00:00.0000000,Confirmed
+13,13,13,Gym,60 minutes,2023-03-13,09:00:00.0000000,Confirmed
+14,14,14,Online,45 minutes,2023-03-14,10:00:00.0000000,Pending
+15,15,15,Park,30 minutes,2023-03-15,11:00:00.0000000,Confirmed
+16,16,16,Gym,60 minutes,2023-03-16,09:00:00.0000000,Confirmed
+17,17,17,Online,45 minutes,2023-03-17,10:00:00.0000000,Pending
+18,18,18,Park,30 minutes,2023-03-18,11:00:00.0000000,Confirmed
+19,19,19,Gym,60 minutes,2023-03-19,09:00:00.0000000,Confirmed
+20,20,20,Online,45 minutes,2023-03-20,10:00:00.0000000,Pending

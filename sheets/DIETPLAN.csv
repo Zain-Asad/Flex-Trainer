@@ -1,0 +1,21 @@
+DIETID,TRAINERID,PLANNAME,PLANDESCRIPTION,CREATIONDATE
+1,61,Beginner Fitness Diet,A diet plan for beginners focusing on fitness,2023-01-01
+2,62,Bodybuilding Diet,A diet plan for bodybuilding,2023-01-02
+3,63,Crossfit Diet,A diet plan for crossfit,2023-01-03
+4,64,Yoga Diet,A diet plan for yoga,2023-01-04
+5,65,Muay Thai Diet,A diet plan for Muay Thai,2023-01-05
+6,66,Powerlifting Diet,A diet plan for powerlifting,2023-01-06
+7,67,Marathon Diet,A diet plan for marathon runners,2023-01-07
+8,68,Vegan Diet,A diet plan for vegans,2023-01-08
+9,69,Gluten-Free Diet,A diet plan for those with gluten intolerance,2023-01-09
+10,70,Keto Diet,A diet plan for those following a ketogenic diet,2023-01-10
+11,71,Paleo Diet,A diet plan for those following a paleo diet,2023-01-11
+12,72,Low-Carb Diet,A diet plan for those following a low-carb diet,2023-01-12
+13,73,High-Protein Diet,A diet plan for those following a high-protein diet,2023-01-13
+14,74,Vegetarian Diet,A diet plan for vegetarians,2023-01-14
+15,75,Weight Loss Diet,A diet plan for weight loss,2023-01-15
+16,76,Weight Gain Diet,A diet plan for weight gain,2023-01-16
+17,77,Endurance Diet,A diet plan for endurance athletes,2023-01-17
+18,78,Strength Training Diet,A diet plan for strength training,2023-01-18
+19,79,Flexitarian Diet,A diet plan for flexitarians,2023-01-19
+20,80,Mediterranean Diet,A diet plan for those following a mediterranean diet,2023-01-20
